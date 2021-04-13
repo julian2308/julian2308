@@ -1,0 +1,42 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.item-detail{
+    font-weight: bold;
+    font-style: italic;
+    /*color: red;
+    color: rgb(255,0,0);*/
+}
+
+header {
+    background-color: #ddd;
+    line-height: 2;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #1f497D;
+    text-align: center;
+    font-size: 24;
+}
+h1,h2{
+    background-color: #bfbfbf;
+    letter-spacing: 0.5em;
+}
+h1 {
+    color: blue;
+}
+
+h2{
+    color: brown;
+}
+.img-link{
+    width: 20px;
+    height: 20px;
+}
+
+footer a {
+    font-size: 10px;
+}
