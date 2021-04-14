@@ -47,28 +47,28 @@ h1 {
     right: 470px;
 }
 .card-header-bat{
-    background-image: url("/img/bg-batman.jpg");
+    background-image: url("../img/bg-batman.jpg");
     height: 500px;
     width: 100%;
     background-size: cover;
 }
 
 .card-header-wonder{
-    background-image: url("/img/bg-wonderw.jpg");
+    background-image: url("../img/bg-wonderw.jpg");
     height: 500px;
     width: 100%;
     background-size: cover;
 }
 
 .card-header-super{
-    background-image: url("/img/bg-superman.jpg");
+    background-image: url("../img/bg-superman.jpg");
     height: 500px;
     width: 100%;
     background-size: cover;
 }
 
 .img-bat{
-    background-image: url("/img/batman.jpg");
+    background-image: url("../img/batman.jpg");
     width: 300px;
     height: 300px;
     background-position-x: -180px;
@@ -78,7 +78,7 @@ h1 {
 }
 
 .img-wonder{
-    background-image: url("/img/wonderw.jpg");
+    background-image: url("../img/wonderw.jpg");
     width: 300px;
     height: 300px;
     background-position: center;
@@ -88,7 +88,7 @@ h1 {
 }
 
 .img-super{
-    background-image: url("/img/superman.jpg");
+    background-image: url("../img/superman.jpg");
     width: 300px;
     height: 300px;
     background-position: center;
