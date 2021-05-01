@@ -1,0 +1,31 @@
+.banner {
+    background-image: url("../img/lemon-pie.jpg") ;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+h2 ul li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texto{
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Antonio', sans-serif; 
+    text-align: center; 
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+

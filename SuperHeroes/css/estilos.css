@@ -13,17 +13,18 @@ aside{
     background-color:#1CD1B0;
     font-size: 20px;
     height: 2rem;
-    position: fixed;
     width: 100%;
     z-index: 2;
 }
 /* Titulo principal */
-h1 {
+header {
     background-color: #00669f;
     color: white;
     font-weight: normal;
-    padding: 1rem;
     padding: 40px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
 }
 
 .cards-super{
@@ -132,6 +133,7 @@ h2{
 /* Pie de pagina*/
 footer {
     background-color: #00669f;
+    align-items: center;
 }
 
 
@@ -155,5 +157,8 @@ footer img{
 footer p {
     text-align: center;
     font-size: 1.5rem;
-    color: white;    
+    color: white;   
+    position: relative;
+    top: 40px; 
+    
 }
