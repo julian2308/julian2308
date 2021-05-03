@@ -21,41 +21,17 @@ body{
     font-size: 20px;
     
 }
-
 h3{
     margin-top: 27px;
     margin-left: 13px;
 }
 
-.header-nav-bar{
-    display: flex;
-    background: black;
-    width: 100%;
-    color: white;
-    padding: 5px;
-    font-family: sans-serif;
-    flex-direction: row-reverse; /*la navbar esta a la izquierda*/
-    
-}
 
-.header-nav-bar-item{
-    padding-right: 20px;
-}
-
-
-/*Formulario */
+/*Formulario*/
 
 form {
-    padding-top:80px ;
+    padding-top: 150px;
     padding-left: 700px;
-
-}
-.register {
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 60px;
-    color: #333;
-
 }
 
 input {
@@ -67,42 +43,27 @@ input {
 
 }
 
-select {
-    display: block;
-    width: 500px;
-    height: 40px;
-    margin-bottom: 10px;
-    border-color: black;
+.Login {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #333;
+
 }
 
 button {
-    margin-top: 20px;
+    width: 500px;
+    border-radius: 50px;
     height: 40px;
-}
+    background-color:#1CD1B0;
+    border-color: #1cd1b0;
+    font-weight: bold;
+    margin-top: 40px;
+} 
 
-.resetear{
-    background-color: #888888;
-    border-radius: 50px;
-    color: white;
-    width: 240px;
-}
-
-.enviar {
-    background-color: #1cd1b0;
-    border-radius: 50px;
-    color: black;
-    width: 240px;
-
-}
-
-
-
-
-
-.registrado {
+.cuenta {
     padding-left:125px ;
 }
-
 
 /*Footer*/
 
@@ -119,3 +80,4 @@ footer {
     padding-top: 16px;
 
 }
+

@@ -1,26 +1,108 @@
 .card-container {
   padding: 5% 10%;
   margin: auto;
+  font-family: sans-serif;
+
 }
 
 .card {
   border-radius: 16px 16px 0 0;
+  height: 100px;
 }
 
 .card-header {
+
   background-image: url(../img/bg-batman.svg);
   background-size: cover;
-  height: 100%;
   position: relative;
+  height: 230px;
+  width: 100%
 }
 
 .card-header--avatar {
   background-image: url(../img/liga-justicia-batman.svg);
   background-repeat: no-repeat;
-  width: 115px;
-  height: 115px;
-  right: 33%;
+  width: 120px;
+  height: 120px;
+  right: 35.5%;
   position: absolute;
-  top: 50%;
+  top: 70%;
   border-radius: 50%;
+}
+
+.card-header--bg-Harley {
+  background-image: url(../img/bg-harley.png);
+  background-size: cover;
+  height: 230px;
+  width: 100%
+  
+}
+
+.card-header--avatar-Harley {
+  background-image: url(../img/harley.png);
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  right: 35.5%;
+  position: absolute;
+  top: 70%;
+  border-radius: 50%; 
+}
+
+.card-content{
+  padding-top: 70px;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+
+.card-content--title {
+  font-size: 28px;
+  margin-bottom:10px ;
+}
+
+/* Boton */
+.card-content--boton {
+  background-color: #00669f;
+  color: white;
+  width: 130px;
+  height: 40px;
+  padding: 20px 10px 0.3px 10px;
+  margin-left: 35.5%;
+  margin-top: 7.5%;
+  transition: all 0.25s;
+}
+
+.card-content--boton:hover {
+  background-color: #1CD1B0;
+}
+
+.fas {
+  color: red;
+  font-size: 30px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+}
+
+.button-add-card {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #00669f;
+  padding: 23px 23px;
+  font-size: 32px;
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.button-add-card:hover {
+  background-color:#1CD1B0 ;
+  
 }

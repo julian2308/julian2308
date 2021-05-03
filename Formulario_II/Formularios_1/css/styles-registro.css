@@ -21,24 +21,24 @@ body{
     font-size: 20px;
     
 }
-
 h3{
     margin-top: 27px;
     margin-left: 13px;
 }
 
-.header-nav-bar{
+.navegacion {
     display: flex;
     background: black;
     width: 100%;
     color: white;
+    text-decoration: dashed;
     padding: 5px;
     font-family: sans-serif;
-    flex-direction: row-reverse; /*la navbar esta a la izquierda*/
-    
+    flex-direction: row-reverse;  
+
 }
 
-.header-nav-bar-item{
+.navegacion-item {
     padding-right: 20px;
 }
 

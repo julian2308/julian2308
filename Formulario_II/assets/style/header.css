@@ -30,6 +30,7 @@ body{
     background: black;
     width: 100%;
     color: white;
+    text-decoration: dashed;
     padding: 5px;
     font-family: sans-serif;
     flex-direction: row-reverse; /*la navbar esta a la izquierda*/
