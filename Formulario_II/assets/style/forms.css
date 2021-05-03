@@ -1,0 +1,66 @@
+.form-powers-list{
+    display: flex;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+}
+
+.form{
+    background-color: #00669F;
+    width: 800px;
+    height: 700px;
+    margin: 5% 0 5% 30%;
+    border-radius: 15px;
+    display: relative;
+}
+
+h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.form-content{
+    padding: 5% 10% 0% 10%;
+}
+
+.form-content-item{
+    height: 100px;
+}
+
+.form-content-item-input{
+    border-radius: 15px;
+    border-color: white;
+    border-style: none;
+    margin: 0;
+    text-indent: 20px;
+}
+
+.form-linea{
+    color: #cccccc;
+    margin-bottom: 12px;
+}
+
+button{
+    background-color: #1cd1bd;
+    border-radius: 15px;
+    height: 80px;
+    width: 350px;
+    display: absolute;
+    align-items: center;
+    margin: 5% 27% 3% 27%;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-style: none;
+}

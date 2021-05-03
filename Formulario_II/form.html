@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets\style\grid.css" />
+    <link rel="stylesheet" href="assets\style\forms.css" />
+    <link rel="stylesheet" href="assets\style\header.css"/>
+    <link rel="stylesheet" href="assets\style\footer.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-discount-text">
+        20% de descuento en todos los productos!
+      </div>
+      <div class="header-store-data">
+        <img width="50px" src="assets\img\Group.svg" class="header-store-logo" img />
+        <div class="header-store-title">Nombre Tienda</div>
+      </div>
+      <div class="header-nav-bar">
+        <div class="header-nav-bar-item">Contacto</div>
+        <div class="header-nav-bar-item">Registrarme</div>
+        <div class="header-nav-bar-item">Ingresar</div>
+      </div>
+    </div>
+    <div class="form">
+      <h3>Añadí tu super!</h3>
+      <p>Agregá tu personaje favorito completando las opciones.</p>
+      <div class="grid-50-50 form-content">
+        <div class="form-content-item ">*Nombre<input class="form-content-item-input" type="text" placeholder="Ingrese nombre" /></div>
+        <div class="form-content-item form-content-item-input">
+          Especie<select class="form-content-item-input" type="text" placeholder="Especie">
+            <option>Opción 1</option>
+            <option>Opción 2</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid-50-50 form-content">
+        <div class="form-content-item">Fecha<input class="form-content-item-input" type="date" /></div>
+        <div class="form-content-item">Agregar foto<input type="file" /></div>
+      </div>
+      <div class="grid-50-50 form-content ">
+        <textarea class="form-content-item-input" rows="4" placeholder="Descripción"></textarea>
+        <div>
+          <div>
+            Poderes
+            <div class="form-powers-list"><input type="checkbox" />Volar</div>
+            <div class="form-powers-list">
+              <input type="checkbox" />Superinteligencia
+            </div>
+            <div class="form-powers-list">
+              <input type="checkbox" />Vista de rayo láser
+            </div>
+            <div class="form-powers-list">
+              <input type="checkbox" />Billetera gorda
+            </div>
+          </div>
+          <div class="form-linea">_____________________________</div>
+          <div>
+            Tipo de personaje
+            <div class="form-powers-list">
+              <input type="radio" />Héroe/Heroína
+            </div>
+            <div class="form-powers-list">
+              <input type="radio" />Villano/Villana
+            </div>
+          </div>
+        </div>
+      </div>
+      <button>Añadir</button>
+    </div>
+    <footer>
+      Todos los derechos reservados a FRONT END 1
+  </footer>
+  </body>
+</html>

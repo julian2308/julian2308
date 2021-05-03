@@ -1,0 +1,11 @@
+.grid-33-33-33{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.grid-50-50{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}

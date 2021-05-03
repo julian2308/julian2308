@@ -1,0 +1,26 @@
+.card-container {
+  padding: 5% 10%;
+  margin: auto;
+}
+
+.card {
+  border-radius: 16px 16px 0 0;
+}
+
+.card-header {
+  background-image: url(../img/bg-batman.svg);
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+
+.card-header--avatar {
+  background-image: url(../img/liga-justicia-batman.svg);
+  background-repeat: no-repeat;
+  width: 115px;
+  height: 115px;
+  right: 33%;
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+}
