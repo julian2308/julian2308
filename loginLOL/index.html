@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Log-in</title>
+</head>
+<body>
+    <main>
+        <section class="card">
+            <div class="logo_LoL">
+                <img src="./img/LoL_Logo.png" alt="Logo_LoL">
+            </div>
+            <article class="credentials">
+                <form action="batman"> 
+                    <legend>Account Login</legend>
+                    <fieldset></fieldset>
+                    <article class="log-in">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" required>
+
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </article>
+                    <article class="extras">
+                        <div class="remember">
+                            <input type="checkbox" name="remember">
+                            <label for="remember">Remember Username</label>
+                        </div>
+                        <div class="sumbit">    
+                        <button type="submit">Log in</button>
+                        </div>
+                        
+                    </article>
+                    <fieldset></fieldset>
+                </form>
+                <div>
+                    <p>Don´t have an account? <a href="#"> Sign up now!</a></p>
+                    <p>Forgot your <a href="#">username?</a></p>
+                    <p>Forgot your <a href="#">password?</a></p>
+                </div>
+            </article>
+            <p class="playing">Playing League of Legends is <span>FREE!</span></p>
+        </section>  
+    </main>
+    <footer>
+        <div>
+            <img src="./img/Riot_Logo.png" alt="Logo_Rito">
+        </div>
+        <form action="batman">
+            <p class="terms">Terms of use</p>
+            <div>
+                <input type="checkbox" name="music">
+                <label for="music">Disable Login Music</label>
+            </div>
+            <div>
+                <input type="checkbox" name="animations">
+                <label for="animations">Disable Mane Animations</label>
+            </div> 
+        </form>
+    </footer>
+</body>
+</html>

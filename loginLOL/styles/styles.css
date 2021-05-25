@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Background complete*/
+body {
+    background: url(../img/LeeSin_bg.jpg) no-repeat;
+    color: white;
+}
+
+main {
+    padding: 4rem 0rem 0rem 4rem;
+}
+
+/* Logo LoL*/ 
+.logo_LoL img{
+    width: 23rem;
+    height: 10rem;
+}
+
+/* Card */ 
+.card {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.credentials {
+    background-color: rgb(0,0,0, 0.8);
+    width: 23rem;
+    height: 18rem;
+    border: .5px solid gray;
+    box-shadow: black 1px;
+}
+
+
+/* Form */ 
+form {
+    width: 23rem;
+    
+}
+
+legend {
+    padding: .4rem;
+}
+
+.log-in {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.log-in label {
+    padding-top: .4rem;
+}
+
+.log-in input {
+    height: 1.5rem;
+    border-radius: 9%;
+}
+
+button{
+    width: 5.5rem;
+    height: 2rem;
+    background-color: #8e8e8e;
+    border-radius: 9%;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #FD822D;
+    color: white;
+}
+
+
+.extras {
+    display: flex;
+    justify-content: space-between;
+    padding: .4rem 2rem .8rem 2rem;
+
+}
+
+div p {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+}
+
+.playing {
+    padding-top: .4rem;
+    align-self: center;
+}
+
+p span {
+    color: yellow;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div img {
+    width: 5rem;
+    height: 3.5rem;
+}
+
+.terms {
+    color: #00B8E5;
+}
+
+a:visited{ color: #00B8E5; }
